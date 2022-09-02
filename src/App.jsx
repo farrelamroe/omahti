@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import logo from './logo.svg';
-import './index.css';
+import './App.css';
 
 
 const App = () => {
@@ -28,7 +28,7 @@ const App = () => {
 			    </div>
           <div className="xl:flex xl:flex-row mobile:hidden sm:hidden">
             <div className="border-t-2 text-center border-black px-10 flex flex-row gap-x-28 font-lato items-center">
-              <a href="https://landing-page-ten-orcin.vercel.app/"><p className="hover:text-red-500 hover:cursor-pointer">ABOUT</p></a>
+              <a href="https://landing-page-ten-orcin.vercel.app/"><p className="hover:text-red-500 hover:cursor-pointer">ABOUT</p></a> {/*pergantian halaman web ke profil penulis */}
               <p className="hover:text-red-500 hover:cursor-pointer ">RESEARCH</p>
               <p className="hover:text-red-500 hover:cursor-pointer">EVENTS</p>
               <p className="hover:text-red-500 hover:cursor-pointer">ARTICLES</p>
@@ -38,7 +38,7 @@ const App = () => {
             <div className='px-3 bg-gray-700 '>
               <div className='border-l-2 border-r-2 py-5'>
                 <div className="border-t-2 border-b-2 py-2 px-2">
-                  <p className=" font-lato text-white border-2 py-1 px-[51px] text-sm hover:text-red-500 hover:cursor-pointer hover:bg-white hover:text-black">SIGN IN/SIGN UP</p>
+                  <p className=" font-lato text-white border-2 py-1 px-[51px] text-sm hover:cursor-pointer hover:bg-white hover:text-black">SIGN IN/SIGN UP</p>
                 </div>
               </div>
             </div>

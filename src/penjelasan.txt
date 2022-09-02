@@ -1,0 +1,5 @@
+untuk project ini menggunakan react native dan tailwind. coding secara keseluruhan bisa dilihat pada file "App.jsx". fitur fitur yang ada pada project ini adalah responsive, navbar, animasi spin pada foto, smooth behavior, dan lain lain. Selain itu juga ada penambahan halaman web pada navbar "ABOUT", tombol "SUBSCRIBE", dan email placeholder@mail.ug.ac.id
+
+project dapat diakses pada link berikut:
+https://omahti.vercel.app/
+https://github.com/farrelamroe/omahti
